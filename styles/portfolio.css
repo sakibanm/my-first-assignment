@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: #fff;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    color: #444343;
+    overflow-x: hidden;
+}
+li{
+    list-style-type: none;
+}
+
+.side-padding{
+    padding: 100px 200px;
+}
+/* Header start */
+
+header{
+    height: 100vh;
+    background: url("../portfolio-image/images/banner/banner3.png");
+    background-size: 100% 100%; 
+    background-position-x: left;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: right;
+    width: 100vw; 
+    
+}
+
+header .Banner_content{
+    height: 100%;
+    text-align: right;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    margin:auto;
+}
+.Banner_content h1{
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 76px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.Banner_content p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color:#fff;
+    margin-bottom: 30px;
+    paddin;
+}
+
+.Banner_content .button{
+    background-color: #fff;
+    padding: 20px 25px;
+    border-radius: 5px;
+    line-height: 23px;
+    color:#005fac;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* Header end  */
+
+/* failure section start */
+
+/* failure section */
+
+.failureList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+
+
+
+.failureImg img{
+    width: 100%;
+}
+
+.failureContent{
+    width: 45%;
+    margin-left: 80px;
+    height: 100%;
+    align-self: center;
+    margin-top: 120px;
+}
+
+
+.failureContent h2{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 25px;
+}
+
+.failureContent p{
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #444343;
+    margin-bottom: 25px;
+}
+
+.failureLists {
+    display:flex;
+    flex-direction: column;
+}
+
+.failureList .item{
+    margin-bottom: 10px;
+}
+
+.failureList .item i{
+    color: #16d887;
+    margin-right: 5px;
+}
+/* failure section end */
+
+
+/* plan section start */
+
+/* plan section */
+
+.plans{
+    width: 100%;
+    text-align: center;
+}
+.plans .plansTitle{
+    color: #151414;
+    font-weight: 700;
+    font-size:35px;
+    line-height: 47px;
+    margin-bottom:60px;
+}
+.planItemsAlign{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%; 
+}
+.plans .planItem img{
+    margin-bottom: 20px;
+}
+.plans .planItem h2{
+    font-weight: 700;
+    font-size: 25px;
+    color:#151414;
+    margin-bottom: 15px;
+}
+.plans .planItem p{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+
+/* plan section end */
+
+/* call me section start*/
+
+/* call me section */
+
+.box{
+background-size: cover;
+    border-radius: 8px;
+    background-image: url('../portfolio-image/images/watch.png');
+    position: relative;
+    z-index: 10;
+    font-weight: 500;
+    color:  #FFFFFF;
+    font-size: 15px;
+    line-height: 30px;
+    padding:60px;
+}
+
+.box::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    background: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    z-index: -1;
+}
+
+.box h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color:#fff;
+}
+
+.box button{
+    border-radius: 5px;
+    padding: 20px 35px;
+    font-size: 20px;
+    line-height-step: 23px;
+    font-weight: 600;
+    background-color: #fff;
+    color:#005fac;
+    border:none;
+    outline:none;
+    margin-top: 24px;
+}
